@@ -7,7 +7,13 @@ lista_animal = ['cachorro', 'gato','elefante','lobo', 'arara']
 tupla = (1, 10, 12, 14)
 print(len(tupla))
 print(len(lista_animal))
+tupla_animal = tuple(lista_animal)
+print(type(tupla_animal))
+print(tupla_animal)
 
+lista_numerica = list(tupla)
+print(type(lista_numerica))
+print(lista_numerica)
 #
 # print(type(lista))
 # print(lista_animal[1])
