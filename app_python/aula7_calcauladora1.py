@@ -19,6 +19,8 @@ class Calculadora:
 
     def divisao(self):
         return self.valor_a / self.valor_b
+
+if __name__ == '__main__':
 #
 # print(soma(1,2))
 # print(soma(3,4))
@@ -26,11 +28,11 @@ class Calculadora:
 # print(multiplicacao(10,2))
 # print(divisao(10,2))
 
-# Instanciando a classe Calculadora
-calculadora = Calculadora(10,2)
-print(calculadora.valor_a)
-print(calculadora.valor_b)
-print(calculadora.soma())
-print(calculadora.subtracao())
-print(calculadora.multiplicacao())
-print(calculadora.divisao())
+    # Instanciando a classe Calculadora
+    calculadora = Calculadora(10,2)
+    print(calculadora.valor_a)
+    print(calculadora.valor_b)
+    print(calculadora.soma())
+    print(calculadora.subtracao())
+    print(calculadora.multiplicacao())
+    print(calculadora.divisao())
